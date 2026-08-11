@@ -1,0 +1,21 @@
+# This repo tracks only a curated subset of the working directory:
+# the scripts and input data for the Jan 19, 2026 ICME/magnetic-cloud
+# event analysis (overview figure + MVA hodograms). Everything else
+# in the working directory (exploratory scripts, generated figures,
+# scan outputs, other events) is intentionally excluded.
+*
+
+!.gitignore
+!README.md
+
+!mc_task14_overview_omni_ace_cr.py
+!mva_flux_rope_ace_jan2026.py
+!mva_hodogram_Bxstar_Bystar_only.py
+
+!omni_min_2026.dat
+!AC_H0_MFI_4092410.csv
+!AC_H0_MFI_2217540.csv
+!datos_assu_15min.csv
+!marambio_15min.csv
+!san_martin_15min.csv
+!tanca_bin30min.csv
